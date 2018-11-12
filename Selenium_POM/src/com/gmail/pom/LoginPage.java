@@ -14,6 +14,9 @@ public class LoginPage {
 	
 	// Locator for email
 	By loc_emailAddress = By.xpath("//input[@id=\"identifierId\"]");
+	// Locator for Next button
+	By loc_nextButton = By.xpath("//span[text()=\"Next\"]");
+			
 	
 	
 
