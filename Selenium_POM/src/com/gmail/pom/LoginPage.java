@@ -16,7 +16,8 @@ public class LoginPage {
 	By loc_emailAddress = By.xpath("//input[@id=\"identifierId\"]");
 	// Locator for Next button
 	By loc_nextButton = By.xpath("//span[text()=\"Next\"]");
-			
+	// Locator for password
+	By loc_password = By.xpath("(//input[@class=\"whsOnd zHQkBf\"])[1]");
 	
 	
 
