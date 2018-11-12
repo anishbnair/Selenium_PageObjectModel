@@ -19,6 +19,10 @@ public class LoginPage {
 	// Locator for password
 	By loc_password = By.xpath("(//input[@class=\"whsOnd zHQkBf\"])[1]");
 	
-	
+	// Type email address
+	public void typeEmailAddress(String emailAddress) {
+		driver.findElement(loc_emailAddress).sendKeys(emailAddress);
+		
+	}
 
 }
