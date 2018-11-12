@@ -33,5 +33,13 @@ public class LoginPage {
 	public void typePassword(String password) {
 		driver.findElement(loc_password).sendKeys(password);		
 	}
+	
+	// Single method to Sign In
+	public void signIn(String emailAddress, String password) {
+		typeEmailAddress(emailAddress);
+		clickOnNextButton();
+		typePassword(password); 	
+		clickOnNextButton();
+	}
 
 }
