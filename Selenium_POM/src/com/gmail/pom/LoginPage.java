@@ -27,7 +27,7 @@ public class LoginPage {
 	// Click on Next button
 	public void clickOnNextButton() {
 		driver.findElement(loc_nextButton).click();
-	}
+	}	
 	
 	// Type password
 	public void typePassword(String password) {
