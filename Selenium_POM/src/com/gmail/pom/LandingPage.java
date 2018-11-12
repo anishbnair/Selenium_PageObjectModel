@@ -1,5 +1,6 @@
 package com.gmail.pom;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LandingPage {
@@ -11,7 +12,8 @@ public class LandingPage {
 		this.driver = driver;
 	}
 	
-	
+	// Locator for Sign In link
+	By loc_signIn = By.xpath("//a[@class=\"gmail-nav__nav-link gmail-nav__nav-link__sign-in\"]");
 	
 	
 
