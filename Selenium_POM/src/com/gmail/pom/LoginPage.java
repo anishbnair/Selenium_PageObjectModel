@@ -21,8 +21,12 @@ public class LoginPage {
 	
 	// Type email address
 	public void typeEmailAddress(String emailAddress) {
-		driver.findElement(loc_emailAddress).sendKeys(emailAddress);
-		
+		driver.findElement(loc_emailAddress).sendKeys(emailAddress);		
+	}
+	
+	// Type password
+	public void typePassword(String password) {
+		driver.findElement(loc_password).sendKeys(password);		
 	}
 
 }
