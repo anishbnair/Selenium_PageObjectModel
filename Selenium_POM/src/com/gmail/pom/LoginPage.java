@@ -1,5 +1,6 @@
 package com.gmail.pom;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LoginPage {
@@ -12,7 +13,7 @@ public class LoginPage {
 	}
 	
 	// Locator for email
-	
+	By loc_emailAddress = By.xpath("//input[@id=\"identifierId\"]");
 	
 	
 
