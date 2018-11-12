@@ -12,6 +12,12 @@ public class LoginTest {
 		driver.manage().deleteAllCookies();
 		
 		driver.get("https://gmail.com");
+		
+		// Creating object of LandingPage
+		LandingPage LandingPage = new LandingPage(driver);
+		
+
+		
 	}
 
 }
