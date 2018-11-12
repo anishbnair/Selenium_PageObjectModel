@@ -16,6 +16,8 @@ public class LoginTest {
 		// Creating object of LandingPage
 		LandingPage LandingPage = new LandingPage(driver);
 		
+		// Click on Sign In link
+		LandingPage.clickOnSignInLink();
 
 		
 	}
