@@ -21,6 +21,10 @@ public class LoginTest {
 		
 		// Creating an object of LoginPage
 		LoginPage LoginPage = new LoginPage(driver);
+		
+		// Sign In
+		LoginPage.signIn("test@gmail.com", "test");
+		
 
 		
 	}
